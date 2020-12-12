@@ -93,7 +93,7 @@ function actualizarPassword(usuario, nuevaPassword) {
   usuario.password = nuevaPassword
   return usuario
 }
-
+ 
 function agregarAmigo(usuario, nuevoAmigo) {
   // "usuario" tiene una propiedad llamada "amigos" que es un array
   // Agrega "nuevoAmigo" al final de ese array
