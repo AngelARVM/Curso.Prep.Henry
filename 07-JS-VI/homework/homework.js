@@ -4,7 +4,7 @@ function invocarCallback(cb) {
   // Invoca al callback `cb`
   return cb()
 }
-
+ 
 function sumarArray(numeros, cb) {
   // Suma todos los números enteros (int/integers) de un array ("numeros")
   // Pasa el resultado a `cb`
