@@ -9,7 +9,7 @@ function sumarArray(numeros, cb) {
   // Suma todos los números enteros (int/integers) de un array ("numeros")
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
-  cb(numeros.reduce((param1, param2)=>(param1+param2)))
+  cb(numeros.reduce((acumulador, elemento)=>(acumulador+elemento)))
 }
 
 function forEach(array, cb) {
