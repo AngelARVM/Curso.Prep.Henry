@@ -1,5 +1,5 @@
 // No cambies los nombres de las funciones.
-
+ 
 function crearUsuario() {
   // Crea una Clase de ES6 o una función constructor llamada "Usuario"
   // Debe aceptar un objeto "opciones" con las propiedades "usuario", "nombre", "email" y "password"
